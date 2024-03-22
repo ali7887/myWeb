@@ -1,0 +1,241 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: rgb(248, 7, 7);
+  --light-color:#f4f4f6
+  --dark-color:#111
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+image {
+  max-width: 100%;
+}
+
+/* navbar */
+.navbar {
+  background: #77dab4;
+  padding: 20px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: 500ms;
+}
+
+.navbar ul li a:hover {
+  color: var(--primary-color);
+}
+
+/* hero */
+.hero {
+  margin-bottom: 50px;
+}
+
+.hero .container {
+  background: url('../images/hero-bg.png') no-repeat ;
+  
+  
+  background-size: contain;
+  background-position: center bottom;
+
+  height: 550px;
+}
+
+.hero .hero-content {
+  width: 70%;
+}
+
+.hero .hero-text {
+  width: 70%;
+  margin-bottom: 20px;
+
+/* video */
+
+.video { 
+  padding: 10px 0 40px;
+}
+}
+
+.video-content {
+
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-preview {
+  margin-bottom: 20px;
+}
+
+/* testimonial */
+
+.testimonials {
+  padding: 40px 0;
+  align-content: center;
+
+
+}
+
+.testimonials .testimonial-heading {
+  width: 700px;
+  margin-bottom: 40px ;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+  gap:30px;
+
+}
+
+.testimonials .card p:nth-child(2)  {
+
+  font-size: 1rem;
+  margin-top: 30px;
+  font-weight: bold;
+
+}
+
+.pricing-grid {
+
+display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* utility classes */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* card */
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+/* buttons */
+.btn {
+  display:inline-block;
+  padding:  auto;
+  background: #8dfff6;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 500ms;
+
+}
+
+.btn-dark {
+  background: #ff7b6a;
+  color: beige;
+}
+
+.btn-block {
+  display:block;
+  width: 100%;
+}
+
+ .navbar ul list-style:last-child a {
+  margin-left: 30px;
+
+ }
+
+ /* text style */
+
+ .text-xxl {
+  font-size : 3rem;
+  line-height: 1.5;
+  font-weight : 600 ;
+  margin : 40px, 0 ,20px ;
+ }
+ .text-xl {
+  font-size : 2rem;
+  line-height: 1.5;
+  font-weight : normal ;
+  margin : 40px, 0 ,20px ;
+ }
+ .text-lg {
+  font-size : 1.5rem;
+  line-height: 1.5;
+  font-weight : normal ;
+  margin : 30px, 0 ,20px ;
+ }
+ .text-md {
+  font-size : 1.2rem;
+  line-height: 1.5;
+  font-weight : normal ;
+  margin : 20px, 0 ,10px ;
+ }
+ .text-sm {
+  font-size : 0.9rem;
+  line-height: 1.5;
+  font-weight : normal ;
+  margin : 5px, 0 ,10px ;
+ }
+
+ .text-center {
+  text-align: center;
+ }
+ 
+ /* background */
+
+.bg-primary {
+
+  background: rebeccapurple;
+  color: #fff;
+}
+ 
+.bg-light {
+  background: #ddb4b4ee;
+  color:#333;
+}
+.bg-black {
+  background: #363a2f;
+  color:#ffffff;
+}
+
+/* card */
+
